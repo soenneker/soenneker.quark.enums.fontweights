@@ -1,7 +1,7 @@
 ﻿using Intellenum;
 using Soenneker.Quark.Enums.GlobalKeywords;
 
-namespace Soenneker.Quark.Enums.FontWeights;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// Typed values for the CSS font-weight property in .NET enumeration form.
