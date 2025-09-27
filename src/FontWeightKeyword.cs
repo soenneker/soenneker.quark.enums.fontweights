@@ -6,7 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// Typed values for the CSS font-weight property in .NET enumeration form.
 /// </summary>
 [Intellenum<string>]
-public sealed partial class FontWeightKeywordKeyword
+public sealed partial class FontWeightKeyword
 {
     public static readonly FontWeightKeyword Light = new("light");
     public static readonly FontWeightKeyword Normal = new("normal");
