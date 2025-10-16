@@ -8,9 +8,9 @@ namespace Soenneker.Quark.Enums;
 [Intellenum<string>]
 public sealed partial class FontWeightKeyword
 {
+    public static readonly FontWeightKeyword Lighter = new("lighter");
     public static readonly FontWeightKeyword Light = new("light");
     public static readonly FontWeightKeyword Normal = new("normal");
-    public static readonly FontWeightKeyword Medium = new("medium");
     public static readonly FontWeightKeyword Semibold = new("semibold");
     public static readonly FontWeightKeyword Bold = new("bold");
     public static readonly FontWeightKeyword Bolder = new("bolder");
