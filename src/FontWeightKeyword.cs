@@ -6,6 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// Typed values for the CSS font-weight property in .NET enumeration form.
 /// </summary>
 [EnumValue<string>]
+[IncludeEnumValues(typeof(GlobalKeyword))]
 public sealed partial class FontWeightKeyword
 {
     public static readonly FontWeightKeyword Lighter = new("lighter");
@@ -14,6 +15,4 @@ public sealed partial class FontWeightKeyword
     public static readonly FontWeightKeyword Semibold = new("semibold");
     public static readonly FontWeightKeyword Bold = new("bold");
     public static readonly FontWeightKeyword Bolder = new("bolder");
-
-    public static implicit operator FontWeightKeyword(GlobalKeyword style) => new(style.Value);
 }
