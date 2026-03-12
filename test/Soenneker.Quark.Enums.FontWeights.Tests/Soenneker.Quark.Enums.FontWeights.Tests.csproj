@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Quark.Enums.FontWeights.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Quark.Enums.FontWeights\Soenneker.Quark.Enums.FontWeights.csproj" />
     </ItemGroup>
 
     <ItemGroup>
